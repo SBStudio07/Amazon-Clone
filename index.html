@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navbar Main Parent -->
+
+    <nav class="navbar">
+        <div class="navLogo">
+            <img src="img/amazon_logo.png" alt="logo">
+            <span>.in</span>
+        </div>
+        <div class="location">
+            <div class="lc-pin">
+                <i id="location-pin" class="fa-solid fa-location-dot"></i>
+            </div>
+            <div class="lc-txt">
+                <h2>Delivering to Kolkata</h2>
+                <h1>Update Location</h1>
+            </div>
+        </div>
+        <div class="search">
+            <div class="search-cont">
+                <select>
+                    <option value="0">All</option>
+                    <option value="1">something</option>
+                    <option value="2">anything</option>
+                    <option value="3">everything</option>
+                </select>
+                <div class="icon-cont">
+                    <i class="fa-solid fa-caret-down"></i>
+                </div>
+            </div>
+            <input id="searchInput" type="text" placeholder="Search Amazon.in">
+            <div class="srcBtn">
+                <button>
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+            </div>
+        </div>
+        <div class="country">
+            <div></div>
+            <div class="country-child">
+                <img src="img/flag.png" alt="">
+                <h2>EN</h2>
+                <div class="country-icon-cont">
+                    <i class="fa-sharp fa-solid fa-sort-down"></i>
+                </div>
+            </div>
+        </div>
+        <div class="signIn">
+            <h3>Hello, sign in</h3>
+            <h2>Accounts & Lists</h2>
+        </div>
+        <div class="returns">
+            <h3>Returns</h3>
+            <h2>& Orders</h2>
+        </div>
+        <div class="cart">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <h1>Cart</h1>
+        </div>
+    </nav>
+
+    <!-- Navbar Child -->
+
+    <nav class="navChild">
+        <div class="hamb-cont">
+            <div class="hamburger">
+                <i class="fa-solid fa-bars"></i>
+                <h1 class="hamb-txt">All</h1>
+            </div>
+        </div>
+        <a href="#" class="nav-a">Fresh</a>
+        <a href="#" class="nav-a">MX Player</a>
+        <a href="#" class="nav-a">Sell</a>
+        <a href="#" class="nav-a">Best Sellers</a>
+        <a href="#" class="nav-a">Today's Deals</a>
+        <a href="#" class="nav-a">Mobiles</a>
+        <a href="#" class="nav-a">Customer Service</a>
+        <a href="#" class="nav-a">Prime</a>
+        <a href="#" class="nav-a">Electronics</a>
+        <a href="#" class="nav-a">Home & Kitchen</a>
+        <a href="#" class="nav-a">Amazon Pay</a>
+        <a href="#" class="nav-a">New Releases</a>
+        <a href="#" class="nav-a">Fation</a>
+        <a href="#" class="nav-a">Car & Motorbike</a>
+        <a href="#" class="nav-a">Computors</a>
+        <a href="#" class="nav-a">Books</a>
+        <a href="#" class="nav-a">Other</a>
+    </nav>
+
+    <!-- Hero Section -->
+
+    <div class="heroSection"></div>
+
+    <!-- Shop Section Boxes 1 -->
+
+    <div>
+        <div class="shopSection">
+            <div class="shopSection1">
+                <div class="box1 box">
+                    <h1>Most-Loved Products for you</h1>
+                    <img src="img/box1_image.webp" alt="box1_img">
+                    <a class="shopNow" onclick="">Explore Now!</a>
+                </div>
+                <div class="box2 box">
+                    <h1>Health & Personal Care</h1>
+                    <img src="img/box2_image.jpg" alt="">
+                    <a class="shopNow" onclick="product2()">Shop Now</a>
+                </div>
+                <div class="box3 box">
+                    <h1>Furniture & Home Decor</h1>
+                    <img src="img/box3_image.jpg" alt="">
+                    <a class="shopNow" onclick="product3()">Shop Now</a>
+                </div>
+                <div class="box4 box">
+                    <h1>Electronics Items</h1>
+                    <img src="img/box4_image.jpg" alt="">
+                    <a class="shopNow" onclick="product4()">Shop Now</a>
+                </div>
+                <div class="box5 box">
+                    <h1>Beauty Products</h1>
+                    <img src="img/box5_image.jpg" alt="">
+                    <a class="shopNow" onclick="product5()">Shop Now</a>
+                </div>
+                <div class="box6 box">
+                    <h1>Pets & Animal Products</h1>
+                    <img src="img/box6_image.jpg" alt="">
+                    <a class="shopNow" onclick="product6()">Shop Now</a>
+                </div>
+                <div class="box7 box">
+                    <h1>Toys - New Arival!</h1>
+                    <img src="img/box7_image.jpg" alt="">
+                    <a class="shopNow" onclick="product7()">Shop Now</a>
+                </div>
+                <div class="box8 box">
+                    <h1>Fashion Cloths & Many More</h1>
+                    <img src="img/box8_image.jpg" alt="">
+                    <a class="shopNow" onclick="product8()">Shop Now</a>
+                </div>
+            </div>
+
+            <!-- Shop Section Linear 1 -->
+
+            <div class="shopSectionLnr">
+                <div class="shopScnLnr_h">
+                    <h1>Up to 75% off | A wide range of electronics & accessories from Small businesses</h1>
+                    <a href="#">See all offers</a>
+                </div>
+                <img src="img/shopScn_img2.png" alt="">
+            </div>
+
+            <!-- Shop Section Boxes 2 -->
+
+            <div class="shopSection1">
+                <div class="box9 box">
+                    <h1>Home & Kitchen</h1>
+                    <img src="img/box9_image.jpeg" alt="">
+                    <a href="#">Shop Now</a>
+                </div>
+                <div class="box10 box">
+                    <h1>Books & Stationery</h1>
+                    <img src="img/box10_image.webp" alt="">
+                    <a href="#">Shop Now</a>
+                </div>
+                <div class="box11 box">
+                    <h1>Sports & Outdoors</h1>
+                    <img src="img/box11_image.jpg" alt="">
+                    <a href="#">Shop Now</a>
+                </div>
+                <div class="box12 box">
+                    <h1>Baby & Kids</h1>
+                    <img src="img/box12_image.webp" alt="">
+                    <a href="#">Shop Now</a>
+                </div>
+            </div>
+
+            <!-- Shop Section Lenear 2 -->
+
+            <div class="shopSectionLnr">
+                <div class="shopScnLnr_h">
+                    <h1>Best Sellers in Clothing & Accessories</h1>
+                    <a href="#">See all offers</a>
+                </div>
+                <img src="img/shopScn_img3.png" alt="">
+            </div>
+
+            <!-- Shop Section Boxes 3 -->
+
+            <div class="shopSection1">
+                <div class="box13 box">
+                    <h1>Groceries & Gourmet Food</h1>
+                    <img src="img/box13_image.jpg" alt="box1_img">
+                    <a href="#">Explore Now!</a>
+                </div>
+                <div class="img/box14 box">
+                    <h1>Office Products</h1>
+                    <img src="img/box14_image.jpg" alt="">
+                    <a href="#">Shop Now</a>
+                </div>
+                <div class="box15 box">
+                    <h1>Music, Movies & Collectibles</h1>
+                    <img src="img/box15_image.jpg" alt="">
+                    <a href="#">Shop Now</a>
+                </div>
+                <div class="box16 box">
+                    <h1>Watches & Jewelry</h1>
+                    <img src="img/box16_image.jpg" alt="">
+                    <a href="#">Shop Now</a>
+                </div>
+                <div class="box17 box">
+                    <h1>Fitness Equipment</h1>
+                    <img src="img/box17_image.avif" alt="">
+                    <a href="#">Shop Now</a>
+                </div>
+                <div class="box18 box">
+                    <h1>Arts, Crafts & Hobbies</h1>
+                    <img src="img/box18_image.jpg" alt="">
+                    <a href="#">Shop Now</a>
+                </div>
+                <div class="box19 box">
+                    <h1>Garden & Outdoor Living</h1>
+                    <img src="img/box20_image.webp" alt="">
+                    <a href="#">Shop Now</a>
+                </div>
+                <div class="box20 box">
+                    <h1>Other Products</h1>
+                    <img src="img/box19_image.jpg" alt="">
+                    <a href="#">Shop Now</a>
+                </div>
+            </div>
+
+            <!-- Shop Section Lenear 3 -->
+
+            <div class="shopSectionLnr">
+                <div class="shopScnLnr_h">
+                    <h1>No cost EMI up to 24 months | Starting ₹4,433 INR/month*</h1>
+                    <a href="#">See all offers</a>
+                </div>
+                <img src="img/shopScn_img1.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+
+    <footer>
+
+        <div class="back2Top">
+            <a href="index.html">Back To Top</a>
+        </div>
+
+        <div class="anchorTags">
+            <div class="anchorTagChild">
+                <div class="aT1 aT">
+                    <h1>Get To Know us</h1>
+                    <ul>
+                        <li>About Amazon</li>
+                        <li>Careers</li>
+                        <li>Press Releases</li>
+                        <li>Amazon Science</li>
+                    </ul>
+                </div>
+                <div class="aT2 aT">
+                    <h1>Connect with Us</h1>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                    </ul>
+                </div>
+                <div class="aT3 aT">
+                    <h1>Make Money with Us</h1>
+                    <ul>
+                        <li>Sell on Amazon</li>
+                        <li>Sell under Amazon Accelerator</li>
+                        <li>Protect and Build Your Brand</li>
+                        <li>Amazon Global Selling</li>
+                        <li>Supply to Amazon</li>
+                        <li>Become an Affiliate</li>
+                        <li>Fulfilment by Amazon</li>
+                        <li>Advertise Your Products</li>
+                        <li>Amazon Pay on Merchants</li>
+                    </ul>
+                </div>
+                <div class="aT4 aT">
+                    <h1>Let Us Help You</h1>
+                    <ul>
+                        <li>Your Account</li>
+                        <li>Returns Centre</li>
+                        <li>Recalls and Product Safety Alerts</li>
+                        <li>100% Purchase Protection</li>
+                        <li>Amazon App Download</li>
+                        <li>Help</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="footerLogoScn">
+            <img src="img/amazon_logo.png" alt="logo">
+            <div style="display: flex; gap: 10px;">
+                <div class="langchild">
+                    <a class="langSelector">
+                        <i class="fa-solid fa-globe"></i>
+                        <h1>English</h1>
+                        <select>
+                            <option value="0"></option>
+                            <option value="1">English</option>
+                        </select>
+                    </a>
+                </div>
+                <div class="footerCountry">
+                    <a class="langSelector">
+                        <img id="lang-flag" src="img/flag.png" alt="ind">
+                        <h1>India</h1>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <div class="footer-down-up">
+                <div class="footer-end">
+                    <div class="footer-end-childs">
+                        <h1>AbeBooks</h1>
+                        <h2>Books, art<br>& collectibles</h2>
+                    </div>
+                    <div class="footer-end-childs">
+                        <h1>Shopbop</h1>
+                        <h2>Designer<br>Fashion Brands</h2>
+                    </div>
+                </div>
+                <div class="footer-end">
+                    <div class="footer-end-childs">
+                        <h1>Amazon Web Services</h1>
+                        <h2>Scalable Cloud<br>Computing Services</h2>
+                    </div>
+                    <div class="footer-end-childs">
+                        <h1>Amazon Business</h1>
+                        <h2>Everything For<br>Your Business</h2>
+                    </div>
+                </div>
+                <div class="footer-end">
+                    <div class="footer-end-childs">
+                        <h1>Audible</h1>
+                        <h2>Download<br>Audio Books</h2>
+                    </div>
+                    <div class="footer-end-childs">
+                        <h1>Prime Now</h1>
+                        <h2>2-Hour Delivery<br>on Everyday Items</h2>
+                    </div>
+                </div>
+                <div class="footer-end">
+                    <div class="footer-end-childs">
+                        <h1>IMDb</h1>
+                        <h2>Movies, TV<br>& Celebrities</h2>
+                    </div>
+                    <div class="footer-end-childs">
+                        <h1>Amazon Prime Music</h1>
+                        <h2>100 million songs, ad-free<br>Over 15 million podcast episodes</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-down-down">
+                <div class="footer-d-d-up">
+                    <h1>Condition of Use & Sale</h1>
+                    <h1>Privacy Notice</h1>
+                    <h1>Interest-Based Ads</h1>
+                </div>
+                <h2>© 1996-2024, Amazon.com, Inc. or its affiliates</h2>
+                <h2>Fully cloned Amazon.in Website by one and only Suman Bhattacharya ( Junior Frontend Developer )</h2>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Additional Divs -->
+
+    <div class="sidebaropen">
+        <div class="sidebar-container">
+            <div class="sidebar-top">
+                <div class="sidebar-heading">
+                    <div class="sidebar-h-icon">
+                        <i class="fa-solid fa-user"></i>
+                    </div>
+                    <h1>Hello, sign in</h1>
+                </div>
+            </div>
+            <button class="close-sidebar">
+                <div class="crossBtn">
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+            </button>
+        </div>
+    </div>
+
+    <div class="overlay"></div>
+
+    <div class="product-overlay">
+        <div class="productContainer">
+            <div class="product-top">
+                <h1 id="product-heading">Electronics Items</h1>
+                <div class="Product-close">
+                    <button class="p-close-btn" onclick="productClose()">
+                        <i class="fa-solid fa-xmark"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="poduct-main-body-cont">
+                <div class="product-main-body">
+                    <div class="product-img">
+                        <img id="product-img" src="img/box4_image.jpg" alt="">
+                    </div>
+                    <div class="main-content-container">
+                        <div class="product-details">
+                            <h1 id="product-h1"></h1>
+                            <p id="product-p"></p>
+                            <div class="rating">
+                                <span>4.5</span>
+                                <img src="https://kayakudos.com/wp-content/uploads/2020/07/4-6-stars-rating.jpg"
+                                    alt="star">
+                            </div>
+                        </div>
+                        <div class="product-price">
+                            <div class="price">
+                                <p id="product-discount"></p>
+                                <h2 id="product-price-amount"></h2>
+                            </div>
+                            <div class="removed-price">
+                                M.R.P: <span id="removed-product-price"></span>
+                                <h5>Inclusive of all taxes</h5>
+                            </div>
+                            <h5>Why are you still waiting?</h5>
+                            <div class="shoping">
+                                <button class="addToCart">Add to Cart</button>
+                                <button class="buyNow"><a id="buyNow" href="" target="_blank">Buy Now!</a></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-product">
+                    <div class="about-cont">
+                        <h3>About This Product</h3>
+                        <ul>
+                            <li>
+                                Experience the power of Galaxy AI with S23 Ultra to effortlessly perfect your photos
+                                with Photo Assist, communicate quickly outside your language with Live Translate or pick
+                                the right tone with Chat Assist, Galaxy AI makes your memories brighter, your
+                                communication easier and your tone nicer and let you sail through the life effortlessly,
+                                just like that!
+                            </li>
+                            <li>
+                                200MP. Wow-worthy resolution - Resolution on the Wide-angle Camera has nearly doubled,
+                                delivering strikingly clear photos. Zoom and crop your shots for a whole new view —or
+                                leave it intact for brilliant detail, corner to corner.
+                            </li>
+                            <li>
+                                Power for those who don't pause - Your quest for epic mobile gaming is over. Snapdragon
+                                8 Gen 2 Mobile Platform for Galaxy optimizes and streamlines your device for silky
+                                smooth games — without draining the battery.
+                            </li>
+                            <li>
+                                Note's signature tool comes built in - The built-in S Pen keeps the legacy of Note
+                                alive. Plus, it helps you ditch the dependency on notebooks, making sketches and jotting
+                                notes effortless and eco-friendly.
+                            </li>
+                            <li>
+                                More innovation, less footprint - Galaxy S23 Ultra's striking symmetrical design returns
+                                with one major difference: recycled and eco-conscious materials. From the metal frame to
+                                the glass finish, it's polished with fresh new colors inspired by nature.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div id="downside-fading"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
